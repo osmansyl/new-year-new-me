@@ -1,8 +1,9 @@
 /* Header Styles */
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 body {
 
     font-family: "Open Sans", sans-serif;
@@ -12,12 +13,13 @@ body {
 
 }
 
-.header{
+.header {
     max-width: 1100px;
     height: 600px;
-    
+
     background-image: url('../images/banner/banner2.png');
     background-size: cover;
+    margin-bottom: 80px;
 }
 
 .banner-content {
@@ -31,17 +33,19 @@ body {
     text-align: right;
 }
 
-.first-header{
+.first-header {
     font-size: 45px;
     font-weight: 800;
     margin-bottom: 20px;
 }
-.description{
+
+.description {
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 20px;
 }
-.button-primary{
+
+.button-primary {
     border-radius: 5px;
     background: #FD6E0A;
     color: #fff;
@@ -50,4 +54,169 @@ body {
     padding: 10px 15px;
     width: 100px;
     margin-left: auto;
+}
+
+/* Main Section */
+
+/* main {
+    max-width: 1100px;
+    margin: 0 auto;
+} */
+/* Person Related Styles */
+.person-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.text-primary {
+    max-width: 300px;
+    margin-left: 80px;
+}
+
+.person-header {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.my-plan-sec {
+    margin-bottom: 80px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    padding: 30px 150px;
+}
+
+.person-description {
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.person-bullet {
+    margin-left: 15px;
+    font-size: 12px;
+}
+
+/* skill Related Styles */
+.skill-container {
+    display: flex;
+    gap: 70px;
+
+}
+
+.skill {
+    margin: auto;
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill img {
+    width: 80px;
+}
+
+.skill-title {
+    font-size: 22px;
+}
+
+.skill-description {
+    font-size: 15px;
+    text-align: center;
+}
+
+/* Watch Related */
+.watch {
+    max-width: 1100px;
+    height: 250px;
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    margin-bottom: 80px;
+}
+
+
+
+.second-header {
+    font-size: 35px;
+    font-weight: 700;
+    max-width: 500px;
+    color: #FFF;
+}
+
+.second-button {
+    border-radius: 5px;
+    background: #FFF;
+    color: orange;
+    border: 0;
+    font-size: 10px;
+    padding: 10px 15px;
+    width: 100px;
+}
+
+/* Footer Related Styles */
+footer {
+    background-color: black;
+    display: flex;
+    gap: 100px;
+    
+}
+.footer-all {
+    /* background-color: black; */
+    width: 50%;
+    padding-top: 100px;
+    padding-left: 70px;
+    padding-bottom: 100px;
+}
+
+.footer-first-header {
+    color: #FFF;
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+.footer-description {
+    color: #FFF;
+    font-size: 10px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    
+}
+
+.footer-sec-header {
+    margin-bottom: 10px;
+    color: #FFF;
+    font-size: 8px;
+    font-weight: 400
+    
+    
+}
+.social-link a{
+    margin-right: 15px;
+    margin-top: 10px;
+}
+.social-link a img{
+    width: 20px;
+}
+
+.contact input{
+    /* background: black; */
+    /* color: #FFF; */
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 0;
+    padding: 15px 35px 15px 15px;
+
 }
